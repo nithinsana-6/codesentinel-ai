@@ -1,0 +1,2 @@
+{"name":"secret-and-shell-risk","files":{"app.py":"import subprocess\nAPI_KEY = \"super-secret-token-123\"\nsubprocess.run(cmd, shell=True)\n"},"expected_titles":["Possible hardcoded secret","Unsafe shell execution","No automated tests detected"]}
+{"name":"debug-and-broad-exception","files":{"service.py":"def handler():\n    try:\n        return 1\n    except Exception:\n        return 0\n\napp.run(debug=True)\n"},"expected_titles":["Broad exception handler","Debug mode enabled","No automated tests detected"]}
