@@ -2,6 +2,8 @@
 
 Agentic code-review and evaluation workbench for AI-assisted software delivery.
 
+Live demo: [codesentinel-ai-gvndjehyyeurwc3yiymgmx.streamlit.app](https://codesentinel-ai-gvndjehyyeurwc3yiymgmx.streamlit.app)
+
 CodeSentinel AI is a production-style portfolio project that demonstrates how to build a reliable coding agent around real software-engineering constraints: repository scanning, tool-based reasoning, risk classification, deterministic evaluation, CI checks, and human-readable review output.
 
 It is designed to be useful even without an LLM API key. The default reviewer uses deterministic heuristics so tests and demos are reproducible. Optional provider adapters can be added for OpenAI, Anthropic, or local models.
@@ -36,6 +38,10 @@ This project shows those skills in one focused system.
 ## Demo
 
 ### Web Demo
+
+Live demo:
+
+[Open CodeSentinel AI](https://codesentinel-ai-gvndjehyyeurwc3yiymgmx.streamlit.app)
 
 Deploy the live demo with Streamlit Community Cloud:
 

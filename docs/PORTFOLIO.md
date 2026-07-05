@@ -37,6 +37,12 @@ Agentic code-review and evaluation workbench with repository scanning, grounded 
 
 Interactive demo for CodeSentinel AI. Paste code, run a deterministic review, inspect severity/category metrics, and view grounded findings with file and line evidence.
 
+Live demo:
+
+```text
+https://codesentinel-ai-gvndjehyyeurwc3yiymgmx.streamlit.app
+```
+
 ## Interview Story
 
 I built CodeSentinel AI to demonstrate that AI engineering is more than calling an LLM API. The system treats the agent as an orchestrator over tools: a scanner gathers repository context, an analyzer produces grounded findings, a provider summarizes the risk profile, and an evaluator measures behavior against labeled cases.

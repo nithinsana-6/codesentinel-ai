@@ -2,6 +2,12 @@
 
 Use this guide to create a live demo recruiters can click.
 
+Current live demo:
+
+```text
+https://codesentinel-ai-gvndjehyyeurwc3yiymgmx.streamlit.app
+```
+
 ## 1. Open Streamlit Community Cloud
 
 Go to:
@@ -61,11 +67,12 @@ After deployment, edit the GitHub repository details and add the Streamlit app U
 Also add it near the top of `README.md`:
 
 ```markdown
-Live demo: https://YOUR-APP.streamlit.app
+Live demo: https://codesentinel-ai-gvndjehyyeurwc3yiymgmx.streamlit.app
 ```
 
 ## 6. LinkedIn Line
 
 ```text
 Live demo: CodeSentinel AI, an agentic code-review and evaluation workbench for AI-assisted software delivery.
+https://codesentinel-ai-gvndjehyyeurwc3yiymgmx.streamlit.app
 ```
