@@ -12,6 +12,12 @@ https://share.streamlit.io/
 
 Sign in with GitHub.
 
+You can also try the direct deploy link:
+
+```text
+https://share.streamlit.io/deploy?repository=https://github.com/nithinsana-6/codesentinel-ai&branch=main&mainModule=app/streamlit_app.py
+```
+
 ## 2. Create New App
 
 Choose:
@@ -29,13 +35,13 @@ Advanced settings:
 Streamlit should automatically detect:
 
 ```text
-requirements-streamlit.txt
+requirements.txt
 ```
 
 If Streamlit asks for a requirements file path, use:
 
 ```text
-requirements-streamlit.txt
+requirements.txt
 ```
 
 ## 4. What The Demo Shows

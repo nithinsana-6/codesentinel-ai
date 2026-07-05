@@ -37,13 +37,17 @@ This project shows those skills in one focused system.
 
 ### Web Demo
 
+Deploy the live demo with Streamlit Community Cloud:
+
+[Deploy on Streamlit](https://share.streamlit.io/deploy?repository=https://github.com/nithinsana-6/codesentinel-ai&branch=main&mainModule=app/streamlit_app.py)
+
 The Streamlit app entry point is:
 
 ```text
 app/streamlit_app.py
 ```
 
-Deploy instructions are in `docs/DEPLOY_STREAMLIT.md`.
+Deploy instructions are in `docs/DEPLOY_STREAMLIT.md`. The app uses the root `requirements.txt` file for Streamlit Cloud dependencies.
 
 ### CLI Demo
 
@@ -114,6 +118,7 @@ codesentinel-ai/
     scanner.py         # repository file discovery
   tests/
   app/streamlit_app.py
+  requirements.txt
   examples/sample_repo/
   evals/cases.jsonl
   .github/workflows/ci.yml
