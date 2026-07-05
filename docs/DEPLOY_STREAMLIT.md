@@ -15,7 +15,7 @@ Sign in with GitHub.
 You can also try the direct deploy link:
 
 ```text
-https://share.streamlit.io/deploy?repository=https://github.com/nithinsana-6/codesentinel-ai&branch=main&mainModule=app/streamlit_app.py
+https://share.streamlit.io/deploy?repository=https://github.com/nithinsana-6/codesentinel-ai&branch=main&mainModule=streamlit_app.py
 ```
 
 ## 2. Create New App
@@ -24,7 +24,7 @@ Choose:
 
 - Repository: `nithinsana-6/codesentinel-ai`
 - Branch: `main`
-- Main file path: `app/streamlit_app.py`
+- Main file path: `streamlit_app.py`
 
 Advanced settings:
 
