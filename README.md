@@ -137,6 +137,13 @@ python -m unittest discover
 
 The core project intentionally has no mandatory third-party runtime dependency.
 
+You can also run the tests immediately after cloning because the repository
+includes a small `sitecustomize.py` helper for local `src/` imports:
+
+```bash
+python -m unittest discover -s tests
+```
+
 ## Optional API Providers
 
 The default provider is deterministic and offline. To add a hosted LLM provider, implement the `ReviewProvider` protocol in `src/codesentinel/providers.py` and keep all network/API behavior outside the core analyzer.
