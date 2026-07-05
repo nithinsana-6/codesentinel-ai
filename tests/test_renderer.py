@@ -1,6 +1,8 @@
 import unittest
 from pathlib import Path
 
+import bootstrap
+
 from codesentinel.models import ReviewReport
 from codesentinel.renderer import render_json, render_markdown
 

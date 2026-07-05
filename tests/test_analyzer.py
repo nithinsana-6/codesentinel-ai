@@ -1,5 +1,7 @@
 import unittest
 
+import bootstrap
+
 from codesentinel.analyzer import StaticAnalyzer
 from codesentinel.models import SourceFile
 
