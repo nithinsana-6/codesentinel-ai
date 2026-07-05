@@ -27,12 +27,25 @@ This project shows those skills in one focused system.
 - Agent-style review orchestration with tool outputs and evidence
 - Deterministic review reports in Markdown and JSON
 - Evaluation harness for measuring reviewer quality against labeled cases
+- Streamlit demo app for recruiter-friendly review walkthroughs
 - CLI-first workflow suitable for GitHub Actions
 - FastAPI-ready service layer through clean core abstractions
 - Unit tests using only the Python standard library
 - Dockerfile and CI workflow
 
 ## Demo
+
+### Web Demo
+
+The Streamlit app entry point is:
+
+```text
+app/streamlit_app.py
+```
+
+Deploy instructions are in `docs/DEPLOY_STREAMLIT.md`.
+
+### CLI Demo
 
 Run a review against the included intentionally flawed sample repository:
 
@@ -94,6 +107,7 @@ codesentinel-ai/
     renderer.py        # markdown/json report rendering
     scanner.py         # repository file discovery
   tests/
+  app/streamlit_app.py
   examples/sample_repo/
   evals/cases.jsonl
   .github/workflows/ci.yml

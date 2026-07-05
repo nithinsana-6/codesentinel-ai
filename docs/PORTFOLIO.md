@@ -33,6 +33,10 @@ This project helped me think more deeply about how AI coding agents should be ev
 
 Agentic code-review and evaluation workbench with repository scanning, grounded findings, deterministic evals, CI, Docker, and production-style Python architecture.
 
+## Streamlit Demo Description
+
+Interactive demo for CodeSentinel AI. Paste code, run a deterministic review, inspect severity/category metrics, and view grounded findings with file and line evidence.
+
 ## Interview Story
 
 I built CodeSentinel AI to demonstrate that AI engineering is more than calling an LLM API. The system treats the agent as an orchestrator over tools: a scanner gathers repository context, an analyzer produces grounded findings, a provider summarizes the risk profile, and an evaluator measures behavior against labeled cases.

@@ -20,3 +20,5 @@ jobs:
         run: codesentinel review examples/sample_repo --format json
       - name: Run evals
         run: codesentinel eval evals/cases.jsonl
+      - name: Compile Streamlit app
+        run: python -m py_compile app/streamlit_app.py

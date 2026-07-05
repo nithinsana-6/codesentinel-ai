@@ -65,8 +65,8 @@ python -m codesentinel.cli eval evals/cases.jsonl
 
 Do these after the first GitHub push:
 
-1. Add SARIF output so findings appear in GitHub code scanning.
-2. Add pull-request diff parsing.
-3. Add OpenAI provider adapter for natural-language review synthesis.
-4. Add a small Streamlit or FastAPI dashboard.
+1. Deploy the Streamlit demo using `docs/DEPLOY_STREAMLIT.md`.
+2. Add SARIF output so findings appear in GitHub code scanning.
+3. Add pull-request diff parsing.
+4. Add OpenAI provider adapter for natural-language review synthesis.
 5. Add a benchmark report comparing deterministic checks vs. LLM-assisted review.
