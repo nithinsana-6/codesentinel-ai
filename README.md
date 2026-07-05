@@ -144,6 +144,13 @@ includes a small `sitecustomize.py` helper for local `src/` imports:
 python -m unittest discover -s tests
 ```
 
+For convenience, the repo also includes a tiny root-level `codesentinel/`
+shim. That lets this command work from the repository root before installation:
+
+```bash
+python -m codesentinel.cli review examples/sample_repo --format markdown
+```
+
 ## Optional API Providers
 
 The default provider is deterministic and offline. To add a hosted LLM provider, implement the `ReviewProvider` protocol in `src/codesentinel/providers.py` and keep all network/API behavior outside the core analyzer.
