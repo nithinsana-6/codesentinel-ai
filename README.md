@@ -76,6 +76,12 @@ Expected output includes:
 
 For resume bullets, LinkedIn copy, and interview talking points, see `docs/PORTFOLIO.md`.
 
+For deeper technical proof, see:
+
+- `docs/ARCHITECTURE.md`
+- `docs/EVAL_REPORT.md`
+- `docs/TECHNICAL_WRITEUP.md`
+
 ## Architecture
 
 ```text
